@@ -5,6 +5,7 @@
     "main": "app.js",
     "scripts": {
         "dev": "nodemon ./bin/www",
+        "seed": "node ./bin/seed.products.js",
         "start": "node ./bin/www",
         "build-react": "echo ---- creating react build --- && cd ../client  && npm install && npm run build && cp -r ./build/* ../server/public/ && cd .."
     },
