@@ -7,11 +7,14 @@ router.get("/", (req, res, next) => {
     const query = catRequest ? { category: catRequest } : {};
     // console.log(query)
     Product.find(query)
-        .then(data => {
-            // console.log(data)
-            res.status(200).json(data)
-        })
-        .catch(err => res.status(500).json({ message: "not found product" }))
+        .then(data => res.status(200).json(data))
+        .catch(err => res.status(500).json({ message: err }))
 });
+
+router.get("/:idProduct", (req, res, next) => {
+    Product.findById(req.params.idProduct)
+        .then(data => res.status(200).json(data))
+        .catch(err => res.status(500).json({ message: err }))
+})
 
 module.exports = router;

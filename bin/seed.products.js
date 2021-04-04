@@ -11,6 +11,8 @@ const products = [
         ingredients: ["nems", "vermicelles de riz", "cacahuètes", "salade composée", "sauce maison"],
         isVegan: false,
         price: 9.00,
+        description:'Le bo bun nem est une salade vietnamienne composée de vermicelles de riz, de crudités, d’herbes fraîches et de nems. Cette salade qui est un plat complet est assaisonnée d’une sauce délicate et parfumée. Il y a aussi souvent de la viande de bœuf sautée et des oignons',
+        allergenic:['sésame/cacahuète', 'porc', 'lait', 'poisson',],
     },
     {
         name: "Bo Bun Boeuf",
@@ -19,6 +21,8 @@ const products = [
         ingredients: ["nems", "wok de boef", "vermicelles de riz", "cacahuètes", "salade composée", "sauce maison"],
         isVegan: false,
         price: 9.10,
+        description:'Le bo bun nem est une salade vietnamienne composée de vermicelles de riz, de crudités, d’herbes fraîches et de nems. Cette salade qui est un plat complet est assaisonnée d’une sauce délicate et parfumée. Il y a aussi souvent de la viande de bœuf sautée et des oignons',
+        allergenic:['sésame/cacahuète', 'porc', 'lait', 'poisson',],
     },
     {
         name: "Bo Bun Crevettes",
@@ -27,6 +31,8 @@ const products = [
         ingredients: ["nems", "crevettes", "vermicelles de riz", "cacahuètes", "salade composée", "sauce maison"],
         isVegan: false,
         price: 10,
+        description:'Le bo bun nem est une salade vietnamienne composée de vermicelles de riz, de crudités, d’herbes fraîches et de nems. Cette salade qui est un plat complet est assaisonnée d’une sauce délicate et parfumée. Il y a aussi souvent de la viande de bœuf sautée et des oignons',
+        allergenic:['sésame/cacahuète', 'porc', 'lait', 'poisson',],
     },
     {
         name: "Bo Bun Crevettes",
@@ -35,6 +41,7 @@ const products = [
         ingredients: ["tofus", "vermicelles de riz", "cacahuètes", "salade composée", "sauce maison"],
         isVegan: true,
         price: 8,
+        allergenic:['sésame/cacahuète', 'porc', 'lait', 'poisson',],
     },
     {
         name: "Bo Bun Nem",
@@ -43,6 +50,8 @@ const products = [
         ingredients: ["nems", "vermicelles de riz", "cacahuètes", "salade composée", "sauce maison"],
         isVegan: false,
         price: 9,
+        description:'Le bo bun nem est une salade vietnamienne composée de vermicelles de riz, de crudités, d’herbes fraîches et de nems. Cette salade qui est un plat complet est assaisonnée d’une sauce délicate et parfumée. Il y a aussi souvent de la viande de bœuf sautée et des oignons',
+        allergenic:['sésame/cacahuète', 'porc', 'lait', 'poisson',],
     },
     {
         name: "Bo Bun Boeuf",
@@ -51,6 +60,8 @@ const products = [
         ingredients: ["nems", "wok de boef", "vermicelles de riz", "cacahuètes", "salade composée", "sauce maison"],
         isVegan: false,
         price: 9,
+        description:'Le bo bun nem est une salade vietnamienne composée de vermicelles de riz, de crudités, d’herbes fraîches et de nems. Cette salade qui est un plat complet est assaisonnée d’une sauce délicate et parfumée. Il y a aussi souvent de la viande de bœuf sautée et des oignons',
+        allergenic:['sésame/cacahuète', 'porc', 'lait', 'poisson',],
     },
     {
         name: "Bo Bun Crevettes",
@@ -59,6 +70,8 @@ const products = [
         ingredients: ["nems", "crevettes", "vermicelles de riz", "cacahuètes", "salade composée", "sauce maison"],
         isVegan: false,
         price: 10,
+        description:'Le bo bun nem est une salade vietnamienne composée de vermicelles de riz, de crudités, d’herbes fraîches et de nems. Cette salade qui est un plat complet est assaisonnée d’une sauce délicate et parfumée. Il y a aussi souvent de la viande de bœuf sautée et des oignons',
+        allergenic:['sésame/cacahuète', 'porc', 'lait', 'poisson',],
     },
     {
         name: "Bo Bun Crevettes",
@@ -67,6 +80,8 @@ const products = [
         ingredients: ["tofus", "vermicelles de riz", "cacahuètes", "salade composée", "sauce maison"],
         isVegan: true,
         price: 8.50,
+        description:'Le bo bun nem est une salade vietnamienne composée de vermicelles de riz, de crudités, d’herbes fraîches et de nems. Cette salade qui est un plat complet est assaisonnée d’une sauce délicate et parfumée. Il y a aussi souvent de la viande de bœuf sautée et des oignons',
+        allergenic:['sésame/cacahuète', 'porc', 'lait', 'poisson',],
     },
     {
         name: "Bo Bun Boeuf",
@@ -75,6 +90,8 @@ const products = [
         ingredients: ["nems", "wok de boef", "vermicelles de riz", "cacahuètes", "salade composée", "sauce maison"],
         isVegan: false,
         price: 9,
+        description:'Le bo bun nem est une salade vietnamienne composée de vermicelles de riz, de crudités, d’herbes fraîches et de nems. Cette salade qui est un plat complet est assaisonnée d’une sauce délicate et parfumée. Il y a aussi souvent de la viande de bœuf sautée et des oignons',
+        allergenic:['sésame/cacahuète', 'porc', 'lait', 'poisson',],
     },
     {
         name: "Bo Bun Crevettes",
@@ -83,6 +100,8 @@ const products = [
         ingredients: ["nems", "crevettes", "vermicelles de riz", "cacahuètes", "salade composée", "sauce maison"],
         isVegan: false,
         price: 10,
+        description:'Le bo bun nem est une salade vietnamienne composée de vermicelles de riz, de crudités, d’herbes fraîches et de nems. Cette salade qui est un plat complet est assaisonnée d’une sauce délicate et parfumée. Il y a aussi souvent de la viande de bœuf sautée et des oignons',
+        allergenic:['sésame/cacahuète', 'porc', 'lait', 'poisson',],
     },
     {
         name: "Bo Bun Crevettes",
@@ -91,6 +110,8 @@ const products = [
         ingredients: ["tofus", "vermicelles de riz", "cacahuètes", "salade composée", "sauce maison"],
         isVegan: true,
         price: 8,
+        description:'Le bo bun nem est une salade vietnamienne composée de vermicelles de riz, de crudités, d’herbes fraîches et de nems. Cette salade qui est un plat complet est assaisonnée d’une sauce délicate et parfumée. Il y a aussi souvent de la viande de bœuf sautée et des oignons',
+        allergenic:['sésame/cacahuète', 'porc', 'lait', 'poisson',],
     },
     {
         name: "Bo Bun Nem",
@@ -99,6 +120,7 @@ const products = [
         ingredients: ["nems", "vermicelles de riz", "cacahuètes", "salade composée", "sauce maison"],
         isVegan: false,
         price: 9,
+        description:'Le bo bun nem est une salade vietnamienne composée de vermicelles de riz, de crudités, d’herbes fraîches et de nems. Cette salade qui est un plat complet est assaisonnée d’une sauce délicate et parfumée. Il y a aussi souvent de la viande de bœuf sautée et des oignons'
     },
     {
         name: "Beer Sai Gon",
@@ -107,6 +129,8 @@ const products = [
         ingredients: [],
         isVegan: false,
         price: 9,
+        description:'Le bo bun nem est une salade vietnamienne composée de vermicelles de riz, de crudités, d’herbes fraîches et de nems. Cette salade qui est un plat complet est assaisonnée d’une sauce délicate et parfumée. Il y a aussi souvent de la viande de bœuf sautée et des oignons',
+        allergenic:['sésame/cacahuète', 'porc', 'lait', 'poisson',],
     },
     {
         name: "Beer Sai Gon",

@@ -8,7 +8,10 @@ const productSchema = new Schema({
     ingredients: [{ type: String, required: true }],
     isVegan: { type: Boolean, required: true, default: false },
     price: { type: Number, min: 0.5 },
-    menu:[{ type: Schema.Types.ObjectId, ref: 'Product' }]
+    menu: [{ type: Schema.Types.ObjectId, ref: 'Product' }],
+    description: { type: String, default: '' },
+    allergenic: [{ type: String }],
+
 },
     { timestamps: true }
 );
